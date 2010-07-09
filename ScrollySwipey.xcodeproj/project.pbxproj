@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8EA3F8E11E77510009BFABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA3F8D11E77510009BFABA /* UIKit.framework */; };
+		D8EA3F9011E77510009BFABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA3F8F11E77510009BFABA /* Foundation.framework */; };
+		D8EA3F9211E77510009BFABA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA3F9111E77510009BFABA /* CoreGraphics.framework */; };
+		D8EA3F9711E77510009BFABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8EA3F9511E77510009BFABA /* InfoPlist.strings */; };
+		D8EA3F9911E77510009BFABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EA3F9811E77510009BFABA /* main.m */; };
+		D8EA3F9C11E77510009BFABA /* ScrollySwipeyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EA3F9B11E77510009BFABA /* ScrollySwipeyAppDelegate.m */; };
+		D8EA3F9F11E77510009BFABA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8EA3F9D11E77510009BFABA /* MainWindow.xib */; };
+		D8EA3FA211E77510009BFABA /* ScrollySwipeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EA3FA111E77510009BFABA /* ScrollySwipeyViewController.m */; };
+		D8EA3FA511E77510009BFABA /* ScrollySwipeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8EA3FA311E77510009BFABA /* ScrollySwipeyViewController.xib */; };
+		D8EA3FAD11E777CD009BFABA /* macallan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8EA3FAC11E777CD009BFABA /* macallan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8EA3F8A11E7750F009BFABA /* ScrollySwipey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollySwipey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EA3F8D11E77510009BFABA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8EA3F8F11E77510009BFABA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8EA3F9111E77510009BFABA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8EA3F9311E77510009BFABA /* ScrollySwipey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollySwipey-Info.plist"; sourceTree = "<group>"; };
+		D8EA3F9411E77510009BFABA /* ScrollySwipey_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollySwipey_Prefix.pch; sourceTree = "<group>"; };
+		D8EA3F9611E77510009BFABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8EA3F9811E77510009BFABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8EA3F9A11E77510009BFABA /* ScrollySwipeyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollySwipeyAppDelegate.h; sourceTree = "<group>"; };
+		D8EA3F9B11E77510009BFABA /* ScrollySwipeyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollySwipeyAppDelegate.m; sourceTree = "<group>"; };
+		D8EA3F9E11E77510009BFABA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D8EA3FA011E77510009BFABA /* ScrollySwipeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollySwipeyViewController.h; sourceTree = "<group>"; };
+		D8EA3FA111E77510009BFABA /* ScrollySwipeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollySwipeyViewController.m; sourceTree = "<group>"; };
+		D8EA3FA411E77510009BFABA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrollySwipeyViewController.xib; sourceTree = "<group>"; };
+		D8EA3FAC11E777CD009BFABA /* macallan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macallan.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8EA3F8711E7750F009BFABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA3F8E11E77510009BFABA /* UIKit.framework in Frameworks */,
+				D8EA3F9011E77510009BFABA /* Foundation.framework in Frameworks */,
+				D8EA3F9211E77510009BFABA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8EA3F7B11E7750F009BFABA = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F8211E7750F009BFABA /* Classes */,
+				D8EA3FAB11E777CD009BFABA /* images */,
+				D8EA3F8311E7750F009BFABA /* Other Sources */,
+				D8EA3F8411E7750F009BFABA /* Resources */,
+				D8EA3F8511E7750F009BFABA /* Frameworks */,
+				D8EA3F8B11E7750F009BFABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8EA3F8211E7750F009BFABA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F9A11E77510009BFABA /* ScrollySwipeyAppDelegate.h */,
+				D8EA3F9B11E77510009BFABA /* ScrollySwipeyAppDelegate.m */,
+				D8EA3FA011E77510009BFABA /* ScrollySwipeyViewController.h */,
+				D8EA3FA111E77510009BFABA /* ScrollySwipeyViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8EA3F8311E7750F009BFABA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F9411E77510009BFABA /* ScrollySwipey_Prefix.pch */,
+				D8EA3F9811E77510009BFABA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D8EA3F8411E7750F009BFABA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F9311E77510009BFABA /* ScrollySwipey-Info.plist */,
+				D8EA3F9511E77510009BFABA /* InfoPlist.strings */,
+				D8EA3F9D11E77510009BFABA /* MainWindow.xib */,
+				D8EA3FA311E77510009BFABA /* ScrollySwipeyViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8EA3F8511E7750F009BFABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F8D11E77510009BFABA /* UIKit.framework */,
+				D8EA3F8F11E77510009BFABA /* Foundation.framework */,
+				D8EA3F9111E77510009BFABA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8EA3F8B11E7750F009BFABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3F8A11E7750F009BFABA /* ScrollySwipey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8EA3FAB11E777CD009BFABA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA3FAC11E777CD009BFABA /* macallan.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8EA3F8911E7750F009BFABA /* ScrollySwipey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EA3FA811E77510009BFABA /* Build configuration list for PBXNativeTarget "ScrollySwipey" */;
+			buildPhases = (
+				D8EA3F8611E7750F009BFABA /* Sources */,
+				D8EA3F8711E7750F009BFABA /* Frameworks */,
+				D8EA3F8811E7750F009BFABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollySwipey;
+			productName = ScrollySwipey;
+			productReference = D8EA3F8A11E7750F009BFABA /* ScrollySwipey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8EA3F7D11E7750F009BFABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Standalone Code LLC";
+			};
+			buildConfigurationList = D8EA3F8011E7750F009BFABA /* Build configuration list for PBXProject "ScrollySwipey" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D8EA3F7B11E7750F009BFABA;
+			productRefGroup = D8EA3F8B11E7750F009BFABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8EA3F8911E7750F009BFABA /* ScrollySwipey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8EA3F8811E7750F009BFABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA3F9711E77510009BFABA /* InfoPlist.strings in Resources */,
+				D8EA3F9F11E77510009BFABA /* MainWindow.xib in Resources */,
+				D8EA3FA511E77510009BFABA /* ScrollySwipeyViewController.xib in Resources */,
+				D8EA3FAD11E777CD009BFABA /* macallan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8EA3F8611E7750F009BFABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA3F9911E77510009BFABA /* main.m in Sources */,
+				D8EA3F9C11E77510009BFABA /* ScrollySwipeyAppDelegate.m in Sources */,
+				D8EA3FA211E77510009BFABA /* ScrollySwipeyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8EA3F9511E77510009BFABA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8EA3F9611E77510009BFABA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8EA3F9D11E77510009BFABA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8EA3F9E11E77510009BFABA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8EA3FA311E77510009BFABA /* ScrollySwipeyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8EA3FA411E77510009BFABA /* en */,
+			);
+			name = ScrollySwipeyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8EA3FA611E77510009BFABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		D8EA3FA711E77510009BFABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		D8EA3FA911E77510009BFABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScrollySwipey_Prefix.pch;
+				INFOPLIST_FILE = "ScrollySwipey-Info.plist";
+				PRODUCT_NAME = ScrollySwipey;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8EA3FAA11E77510009BFABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScrollySwipey_Prefix.pch;
+				INFOPLIST_FILE = "ScrollySwipey-Info.plist";
+				PRODUCT_NAME = ScrollySwipey;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8EA3F8011E7750F009BFABA /* Build configuration list for PBXProject "ScrollySwipey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA3FA611E77510009BFABA /* Debug */,
+				D8EA3FA711E77510009BFABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EA3FA811E77510009BFABA /* Build configuration list for PBXNativeTarget "ScrollySwipey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EA3FA911E77510009BFABA /* Debug */,
+				D8EA3FAA11E77510009BFABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8EA3F7D11E7750F009BFABA /* Project object */;
+}
